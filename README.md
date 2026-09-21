@@ -2,9 +2,9 @@
 
 > **A 30-second health check and onboarding brief for any codebase.**
 
-[![CI](https://github.com/dukelight/repo-ritual/actions/workflows/test.yml/badge.svg)](https://github.com/dukelight/repo-ritual/actions/workflows/test.yml)
+[![CI](https://github.com/ydpzg/repo-ritual/actions/workflows/test.yml/badge.svg)](https://github.com/ydpzg/repo-ritual/actions/workflows/test.yml)
 [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Zero dependencies](https://img.shields.io/badge/dependencies-zero-2ea44f)](https://github.com/dukelight/repo-ritual)
+[![Zero dependencies](https://img.shields.io/badge/dependencies-zero-2ea44f)](https://github.com/ydpzg/repo-ritual)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 New repo. Old repo. A repo you inherited five minutes ago.
