@@ -1,0 +1,16 @@
+# Copy this file to repo-ritual.toml to customize a repository audit.
+[project]
+name = "my-project"
+
+[checks]
+# Set any built-in check to false to disable it.
+# docs = false
+# license = false
+
+[[custom_checks]]
+id = "dockerfile"
+label = "Dockerfile"
+path = "Dockerfile"
+points = 5
+required = false
+hint = "Add a Dockerfile for a reproducible runtime image."

@@ -1,0 +1,4 @@
+# One glob per line. These files are excluded from the heuristic secret scan.
+fixtures/**
+tests/fixtures/**
+docs/examples/**
