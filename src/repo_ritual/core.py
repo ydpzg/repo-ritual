@@ -336,7 +336,7 @@ def render_markdown(report: Report) -> str:
     for c in report.checks:
         detail = c.detail.replace("|", "\\|")
         rows.append(f"| {c.status} | {c.label} | {detail} |")
-    lines = [f"# {report.project_name}", f"**Score:** `{report.score}/100` · **Grade:** `{report.grade}` · **Mode:** `{report.mode}", "", *rows, "", f"**Stack:** {', '.join(report.stack)}"]
+    lines = [f"# {report.project_name}", f"**Score:** `{report.score}/100` · **Grade:** `{report.grade}` · **Mode:** `{report.mode}`", "", *rows, "", f"**Stack:** {', '.join(report.stack)}"]
     if report.suggested_next_steps:
         lines += ["", "## Next steps", *[f"- {step}" for step in report.suggested_next_steps]]
     return "\n".join(lines)
