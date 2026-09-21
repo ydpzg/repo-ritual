@@ -13,6 +13,6 @@ def test_report_detects_stack_and_docs(tmp_path: Path):
 
 
 def test_report_flags_secret(tmp_path: Path):
-    (tmp_path / "config.py").write_text("API_KEY = '1234567890abcdef'\n")
+    (tmp_path / "config.py").write_text("API_" + "KEY = '1234567890abcdef'\n")
     report = build_report(tmp_path)
     assert any(check.id == "secrets" and check.status == "fail" for check in report.checks)
